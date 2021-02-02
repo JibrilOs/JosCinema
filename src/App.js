@@ -1,6 +1,10 @@
-
+import Jumbotron from "./components/jumbotron/index";
 function App() {
-  return <div className="">hello wolrd</div>;
+  return (
+    <div>
+      <Jumbotron />
+    </div>
+  );
 }
 
 export default App;
